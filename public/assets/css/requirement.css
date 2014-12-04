@@ -1,0 +1,32 @@
+.table{
+	margin-left:300px;
+	width:400px;
+}
+#question_img{
+	margin-left:300px;
+		
+}
+
+.top_anchor{
+		margin-left:983px;
+	
+}
+
+
+@media screen (max-device-width: 413px) and (max-device-width: 413px)
+{
+
+.table{
+	margin-left:0px;
+}
+#question_img{
+	margin-left:0px;
+		
+}
+
+.top_anchor{
+		margin-left:683px;
+	
+}
+ 
+}

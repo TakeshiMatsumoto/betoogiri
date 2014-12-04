@@ -1,0 +1,70 @@
+.win{
+	color: red;
+	font-size: 27px;
+}
+
+.point_table{
+	width:700px;
+	margin-left: 300px;
+	
+}
+
+.result_table{
+	margin-left: 300px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	font-size: 24px;
+}
+
+.point{
+	font-size:17px;
+	font-weight:bold;
+}
+
+#result_img{
+	margin-left: 300px;
+	margin-top:20px;
+	
+}
+
+.pagination{
+	margin-top:-5px;
+	margin-left:300px;
+	
+}
+
+.top_anchor{
+	margin-left:984px
+	
+}
+
+
+@media screen (max-device-width: 413px) and (max-device-width: 413px)
+{
+
+.point_table{	
+	margin-left: 0px;
+	
+}
+
+.result_table{
+	margin-left: 0px;
+}
+
+#result_img{
+	margin-left: 0px;
+
+}
+
+.pagination{
+	margin-left:0px;
+	
+}
+
+.top_anchor{
+	margin-left:684px
+	
+}
+
+ 
+}

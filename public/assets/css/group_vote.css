@@ -1,0 +1,63 @@
+#vote_title{
+	margin-top:20px;
+	margin-left:300px;		
+	
+}
+
+#vote_table{
+	margin-top:20px;
+	margin-left:300px;
+}
+
+#vote_confirm_table{
+	margin-top: -26px;
+	margin-left: 299px;
+}
+
+#vote_confirm_button{
+	margin-top:5px;
+	margin-left:622px;
+	
+}
+
+#vote_button{
+	margin-top:5px;
+	margin-left: 352px;	
+}
+
+#confirm-sentence{
+	margin-left: 300px;	
+	font-weight:bold;
+}
+
+
+@media screen (max-device-width: 413px) and (max-device-width: 413px)
+{
+#vote_title{
+	margin-left:0px;		
+	
+}
+
+#vote_table{
+	margin-left:0px;
+}
+
+#vote_confirm_table{
+	margin-left: 0px;
+}
+
+#vote_confirm_button{
+	margin-left:322px;
+	
+}
+
+#vote_button{
+	margin-top:5px;
+	margin-left: 52px;	
+}
+
+#confirm-sentence{
+	margin-left: 0px;	
+}
+ 
+}

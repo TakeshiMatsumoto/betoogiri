@@ -1,0 +1,216 @@
+#top_title{
+	margin-top:20px;
+	margin-left:300px;	
+}
+
+#login_box{
+	margin-top:5px;
+	margin-left:830px;
+	font-size:20px;
+}
+
+#side_bar{
+	margin-top:37px;
+	margin-left:300px;
+	height:400px;
+	float: left;
+	
+}
+#question_title{
+	width:700px;
+	margin-left:200px;
+}
+
+#contents{
+	width:900px;
+	margin-left:661px;
+}
+
+#single_apply{
+	margin-left:5px;
+	
+}
+
+#group_answer_submit{
+	margin-top:5px;
+	
+}
+
+#single_question{
+	font-size: 24px;
+	
+}
+
+#battle_card{
+	font-size: 24px;	
+}
+
+#single_answer_submit{
+	margin-top:5px;
+}
+
+#single_answer_text{
+	margin-top:-20px;
+}
+
+#single_vote_table{
+   margin-top:20px;	
+	
+	
+}
+
+.group_question{
+	margin-top:-37px;
+	font-size:24px;
+	font-weight: bold;
+}
+
+.group_question_post_time{
+	margin-top: -1px;
+	font-size:24px;
+	font-weight: bold;
+}
+
+#group_vote_time{
+	font-size: 27px;
+	color: red;
+	font-weight: bold;
+}
+
+#group_question_vote_page{
+	font-size: 20px;
+		font-weight: bold;
+}
+
+#single_vote_time{
+	font-size: 27px;
+	color: red;
+	font-weight: bold;
+}
+
+#top_message{
+	margin-left: 514px;
+	margin-bottom:-20px;
+	color:red;
+	font-size:24px;
+	font-weight:weight;
+	
+}
+
+#single_vote_anchor{
+	font-size: 20px;
+	font-weight:bold;
+	margin-top:5px;
+}
+
+#former_single_battle{
+	
+	font-size:19px;
+	font-weight: bold;
+	margin-top:23px;
+	
+}
+
+#single_former_battle_card{
+		font-size:17px;
+	font-weight: bold;
+	
+}
+
+#win_lose{
+	font-weight:bold;
+	font-size:17px;
+	color:red;
+		margin-top:-10px;
+}
+
+#former_single_battle_link{
+	margin-bottom:-5px;
+}
+
+#register_battle{
+		font-size:17px;
+	font-weight: bold;	
+	margin-top:5px;
+}
+
+#single_former_battle_card{
+	margin-top:-10px;
+	
+}
+#single_battle_list{
+	margin-top:29px;
+	
+}
+
+#past_single_battke_anchor{
+	font-size: 20px;
+	font-weight:bold;
+	margin-top:5px;
+	
+}
+
+#apply_money{
+	font-size: 17px;
+	margin-top:-10px;
+}
+
+.due_time{
+	margin-top: 0px;
+	font-size:17px;
+	font-weight:bold;
+}
+
+.due_time_single{
+		margin-top:-15px;
+	font-size:17px;
+	font-weight:bold;
+	
+}
+
+#apply_battle_for_you{
+	margin-top:17px;
+	font-size:17px;
+	font-weight:bold;
+}
+
+#requirment_anchor{
+	font-weight:bold;	
+	
+}
+
+#no_single_battle{
+	margin-top:-11px;
+	
+}
+
+.applysinglebattle{
+	font-size:17px;
+	font-weight:bold;
+}
+
+#cancel_submit{
+	margin-top:-10px;
+	
+}
+
+#vote_login_ann{
+	font-size:20px;
+	font-weight:bold;
+	color:red;
+	margin-bottom:24px;
+	
+}
+
+.vote_anchor{
+	margin-bottom:10px;
+	
+}
+
+#rule{
+	margin-top: -27px;
+	margin-left: 0px;
+	font-size:20px;
+	font-weight:bold;
+	float: left;
+}

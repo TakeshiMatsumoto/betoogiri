@@ -1,0 +1,57 @@
+.table{
+	width:500px;
+	
+}
+
+#rank{
+	font-size:20px;
+	text-align:center;
+	
+}
+
+#result_img{
+		margin-top:20px;
+	margin-left:300px;		
+	
+	
+	
+}
+
+#result_table{
+	margin-top:10px;
+	margin-left:300px;
+}
+
+.top_anchor{
+		margin-left:983px;
+	
+}
+
+#question{
+	font-size:23px;
+	font-weight:bold;
+		margin-left:600px;
+}
+
+
+
+
+@media screen (max-device-width: 413px) and (max-device-width: 413px)
+{
+#result_img{
+	margin-left:0px;		
+}
+
+#result_table{
+	margin-left:0px;
+}
+
+.top_anchor{
+		margin-left:683px;
+}
+
+#question{
+	margin-left:300px;
+}
+ 
+}

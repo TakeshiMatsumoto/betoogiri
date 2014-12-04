@@ -1,0 +1,107 @@
+#vote_title{
+	margin-top:20px;
+	margin-left:300px;		
+	
+}
+
+#vote_table{
+	margin-top:20px;
+	margin-left:300px;
+	width:500px;
+}
+
+.single_battle_card{
+	text-align:center;
+	
+	
+}
+
+
+.submit_button{
+	margin-left:754px;
+	
+	
+}
+#vote_confirm_table{
+	margin-top: -26px;
+	margin-left: 299px;
+}
+
+#vote_confirm_button{
+	margin-top:5px;
+	margin-left:622px;
+	
+}
+
+.submit_button{
+	margin-top:-12px;
+
+	
+}
+
+#single_vote_img{
+margin-top:48px;		
+margin-left:300px;	
+	
+}
+
+#top_message{
+	margin-left: 518px;
+	margin-bottom:-39px;
+	color:red;
+	font-size:24px;
+	font-weight:weight;
+}
+
+.top_anchor{
+	margin-left:984px;	
+}
+
+#novote{margin-left:300px;	
+}
+
+@media screen (max-device-width: 413px) and (max-device-width: 413px)
+{
+
+#vote_title{
+	margin-left:0px;		
+	
+}
+
+#vote_table{
+	margin-left:0px;
+}
+
+
+.submit_button{
+	margin-left:454px;
+}
+#vote_confirm_table{
+	margin-left: 0px;
+}
+
+#vote_confirm_button{
+	margin-top:5px;
+	margin-left:322px;
+	
+}
+
+
+#single_vote_img{	
+margin-left:0px;	
+	
+}
+
+#top_message{
+	margin-left: 318px;
+}
+
+.top_anchor{
+	margin-left:684px;
+	
+}
+
+#novote{
+margin-left:0px;	
+}
+}

@@ -1,0 +1,62 @@
+#question_table{
+	margin-left:300px;
+	width:400px;
+}
+#question_img{
+	margin-left:300px;
+		
+}
+
+.top_anchor{
+		margin-left:983px;
+	
+}
+
+#rule{
+	margin-left:300px;
+	
+}
+
+#explain{
+		margin-top:10px;
+		margin-left:300px;
+	
+}
+
+.submit_button{
+		margin-top:10px;
+		margin-left:300px;
+	
+}
+
+@media screen (max-device-width: 413px) and (max-device-width: 413px)
+{
+#question_table{
+	margin-left:0px;
+}
+#question_img{
+	margin-left:0px;
+		
+}
+
+.top_anchor{
+		margin-left:683px;
+	
+}
+
+#rule{
+	margin-left:0px;
+	
+}
+
+#explain{
+		margin-left:0px;
+	
+}
+
+.submit_button{
+		margin-left:0px;
+	
+}
+ 
+}
