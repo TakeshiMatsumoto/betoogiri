@@ -4,11 +4,7 @@ class Controller_Toppage extends Controller_Admin
 {
 	public function action_index()
 	{
-		
-//Cookie::delete('user_name');
 		$user_name=Cookie::get('user_name');
-		//$user_name="bakutaro02";
-		//$user_name="1";
 		$data['user_name']=$user_name;
 		$single_battle_id = Session::get('single_battle_id');
 		$data['former_single_battle_id']=  Session::get('former_single_battle_id');
