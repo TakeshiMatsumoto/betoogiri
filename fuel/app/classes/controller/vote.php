@@ -6,8 +6,6 @@ Class Controller_Vote extends Controller_Admin
 {
 	public function action_index(){
 		$user_name=Cookie::get('user_name');
-				//$user_name="bakutaro02";
-				//$user_name="1";
 		if(empty($user_name)){
 			$base_url= Uri::base();
 			Response::redirect($base_url."confirmlogin");
@@ -32,8 +30,6 @@ Class Controller_Vote extends Controller_Admin
 	//受け取った採点を確認画面に表示する
 	public function action_confirmvote(){
 		$user_name=Cookie::get('user_name');
-				//$user_name="bakutaro02";
-				//$user_name="1";
 		$data['user_name']=$user_name;
 		$question_state= Model_questionstate::find_one_by('id',1);
 		$current_question_num=$question_state['current_quetion_num'];
@@ -70,8 +66,6 @@ Class Controller_Vote extends Controller_Admin
 			$answer_list_result = $answer_list_query->execute()->as_array();
 			
 			$user_name = Cookie::get('user_name');
-			//$user_name="bakutaro02";
-			//$user_name="1";
 			//ユーザーの投票フラグを１にする。
 			$user_info_query=DB::update('userinfo')->set(array('group_vote_flg'=>1,'money'=>DB::expr('money + ' . 500)));
 			$user_info_query->where('user_name','=',$user_name);
