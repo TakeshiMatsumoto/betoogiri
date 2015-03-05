@@ -8,15 +8,12 @@ class Controller_Calculatevote extends Controller
 		
 		//現在のお題の状態を取得
 		$question_state= Model_questionstate::find_one_by('id',1);
-			//お題番号の取得
+		//お題番号の取得
 		$target_question_num=$question_state['current_quetion_num'];
-		echo $target_question_num;
-					//次のお題になるものをとってくる
-			$answer_query = DB::select()->from('groupanswerlist');
-			$answer_query -> where('question_num','=',$target_question_num);
-			$answer_search_result = $answer_query -> execute() -> as_array();
-			var_dump($answer_search_result);
-			echo count($answer_search_result);
+		//次のお題になるものをとってくる
+		$answer_query = DB::select()->from('groupanswerlist');
+		$answer_query -> where('question_num','=',$target_question_num);
+		$answer_search_result = $answer_query -> execute() -> as_array();
 		if(count($answer_search_result)>0){
 			if($question_state['question_state_flg']==1){
 				//現在のお題の状態を取得
