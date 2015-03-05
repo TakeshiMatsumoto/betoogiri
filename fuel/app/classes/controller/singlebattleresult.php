@@ -6,7 +6,7 @@ class Controller_Singlebattleresult extends Controller_admin
 
 	public function action_index()
 	{
-				//１日前の日付を設定
+		//１日前の日付を設定
 		$date=date("Y-m-d H:i:s",strtotime("-1 day"));
 		
 		//結果発表の時間が過ぎていて、かつ、投票期間中のデータを持ってくる
