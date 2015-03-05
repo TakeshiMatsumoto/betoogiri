@@ -53,7 +53,6 @@ class Controller_Singlebattle extends Controller_Admin
 		
 		Input::post('single_battle_id');
 		$user_name=Session::get('user_name');
-				//$user_name="1";
 		$single_post_flg=Session::get('single_post_flg');
 		$single_battle_id1=Input::post('single_battle_id');
 		$single_battle_id2=Session::get('single_battle_id');
@@ -129,7 +128,6 @@ class Controller_Singlebattle extends Controller_Admin
 		$sigle_battle_id=Input::post('single_battle_id');
 		$users_answer=Input::post('users_answer');
 		$user_name=Session::get('user_name');
-				$user_name="1";
 		//firstuserを取得する
 		$first_user_name_query = DB::select('first_user_name','first_user_answer','second_user_answer')->from('singlebattlemaster');
 		$first_user_name_query->where('id','=',$sigle_battle_id);
@@ -212,8 +210,6 @@ class Controller_Singlebattle extends Controller_Admin
 		$second_user_point=input::post($second_user_key);
 		
 		$user_name=Session::get('user_name');
-		//$user_name="1";
-		$user_name="bakutaro02";
 		$single_count=DB::select('id')->from('single_battle_vote');
 		$single_count->where('single_battle_id','=',input::post('single_battle_id'));
 		$single_count_list=$single_count-> execute() -> as_array();
@@ -237,12 +233,6 @@ class Controller_Singlebattle extends Controller_Admin
 			$user_info_query->execute();
 			
 			Session::set_flash('message', "投票完了しました");
-			
-			//今の投票人数を取得する
-			$single_count=DB::select('id')->from('single_battle_vote');
-			$single_count->where('single_battle_id','=',input::post('single_battle_id'));
-			$single_count_list=$single_count-> execute() -> as_array();
-			$single_count_num=count($single_count_list);
 
 			//既に5人投票済みなら採点する
 			if($single_count_num==5){
