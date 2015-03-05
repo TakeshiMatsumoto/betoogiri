@@ -15,8 +15,6 @@ class Controller_Receiveanswer extends Controller
 
 		$current_question_num=$question_num_result['current_quetion_num'];
 		$user_name = Cookie::get('user_name');
-		//$user_name = "1";
-		//$user_name = "bakuraro02";
 		if ($current_question_num == $question_num){
 			$answer_register = Model_groupanswerlist::forge();		
 			
